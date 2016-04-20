@@ -1,0 +1,11 @@
+I found and fixed the following major issues to have the tool in working condition:
+
+1. There was no exception handling in TradeReader Class for reading files.
+2. The loginc for the sum BUYs and SELLs in the Main class was wrong where the first BUY/SELL was being added twice.
+3. There were a couple of code repetition in the Main class.
+4. The logic for checking the 'side' was inadequate where on the else part it was simply assumed if the side was not BUY it would be SELL. A switch construct was added to handle this properly.
+5. The program was simply adding all lines of trade log without taking the date into account. The fix involved updating both Main and TradeReader classes. Now a date parameter is passed to the Main class where it is being validated and passed to the TradeReader class. In the TradeReader class while the list is populated if line's date is different from the passed parameter that line will be skipped.
+6. In the TradeReaderTests the format of both assertions was corrected. Also in the second case the assertion's logic was wrong and corrected.
+
+
+There is still room for improvments such as better reading of the log file, validation of the filed values and adding more tests where the calculated values in the report are assereted on.

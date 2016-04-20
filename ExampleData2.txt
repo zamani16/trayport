@@ -1,0 +1,10 @@
+trade time,unique id,quantity,side,instrument name
+22/05/2016 08:03,1,5.2,BUY,Germany Baseload
+22/05/2016 08:03,1,4.8,BUY,Germany Baseload
+22/05/2016 08:23,2,6.2,SELL,Germany Baseload
+22/05/2016 08:23,2,13.8,SELL,Germany Baseload
+22/05/2016 09:05,3,4.5,SELL,Austria Peaks
+22/05/2016 09:05,3,7.5,SELL,Austria Peaks
+22/05/2016 09:18,4,5.3,BUY,Austria Peaks
+22/05/2016 09:18,4,5.7,BUY,Austria Peaks
+23/05/2016 09:18,4,5000000.0,BUY,Austria Peaks
